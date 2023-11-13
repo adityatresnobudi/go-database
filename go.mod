@@ -2,7 +2,10 @@ module github.com/adityatresnobudi/go-database
 
 go 1.18
 
-require github.com/jackc/pgx/v5 v5.5.0
+require (
+	github.com/jackc/pgx/v5 v5.5.0
+	github.com/shopspring/decimal v1.3.1
+)
 
 require (
 	github.com/jackc/pgpassfile v1.0.0 // indirect
